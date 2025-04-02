@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: node-model:latest
+    image: darmajr94/node-model:latest
     ports:
       - "9000:3000"
     volumes:

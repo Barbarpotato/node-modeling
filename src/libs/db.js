@@ -1,10 +1,11 @@
-import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
+import sqlite3 from 'sqlite3';
+import path from 'path';
 
-// Function to initialize and return the database connection
 export async function openDb() {
+    const dbPath = process.env.DB_PATH || path.join('/app/data', 'database.db');
     return open({
-        filename: './data/database.db', // Path to your SQLite file
+        filename: dbPath,
         driver: sqlite3.Database,
     });
 }

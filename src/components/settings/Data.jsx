@@ -1,5 +1,7 @@
 import { Box, Button, Flex, Heading, Input, Separator, Text, CloseButton, Dialog, Portal, Badge } from '@chakra-ui/react';
 import { buildModel } from '@/utils/buildModel';
+import { IoIosAttach } from "react-icons/io";
+import { MdDelete } from "react-icons/md";
 import { Fragment, useEffect, useState } from 'react';
 
 export default function Data() {
@@ -120,7 +122,7 @@ export default function Data() {
                                                 >
                                                     <Dialog.Trigger asChild>
                                                         <Button ml={"auto"} mr={3} variant="outline" size="sm">
-                                                            Attach Engine
+                                                            <IoIosAttach />
                                                         </Button>
                                                     </Dialog.Trigger>
                                                     <Portal>
@@ -158,7 +160,7 @@ export default function Data() {
                                                     onClick={() => handleDeleteNode(objectName)}
                                                     colorPalette={isAttached ? "black" : "red"}
                                                 >
-                                                    Delete
+                                                    <MdDelete />
                                                 </Button>
                                             </Flex>
                                             <Separator />

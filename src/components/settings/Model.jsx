@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Heading, Input, Separator, Spacer, Text, Badge } from '@chakra-ui/react';
 import { buildModel } from '@/utils/buildModel';
+import { MdDelete } from "react-icons/md";
 import { Fragment, useEffect, useState, useRef } from 'react';
 
 export default function Model() {
@@ -201,10 +202,10 @@ export default function Model() {
                                     )}
                                     <Spacer />
                                     <Button onClick={() => handleApply(item)} mr={2}>
-                                        Apply Model
+                                        Apply
                                     </Button>
                                     <Button colorPalette="red" onClick={() => handleDelete(item.id)}>
-                                        Delete Model
+                                        <MdDelete />
                                     </Button>
                                 </Flex>
                                 <Separator />

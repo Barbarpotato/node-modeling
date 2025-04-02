@@ -5,7 +5,7 @@ services:
     ports:
       - "9000:3000"
     volumes:
-      - db-data:/data/database
+      - db-data:/app/data
     restart: unless-stopped
 volumes:
   db-data:

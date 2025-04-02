@@ -20,6 +20,6 @@ Both functions store data in localStorage, allowing incremental updates and inte
 
 ![Example Image](https://firebasestorage.googleapis.com/v0/b/personal-blog-darmajr.appspot.com/o/project-content%2Fnode-model-ex2.png?alt=media&token=088871e2-3de4-45b9-aa7e-97332e5df6e5)
 
-![Example Image](https://firebasestorage.googleapis.com/v0/b/personal-blog-darmajr.appspot.com/o/project-content%2Fnode-model-ex3.png?alt=media&token=3f77d1f1-a865-48b2-b995-1ac6aafc85a1)
+![Example Image](https://firebasestorage.googleapis.com/v0/b/personal-blog-darmajr.appspot.com/o/project-content%2Fnode-model-ex3.png?alt=media&token=1242233d-6174-4e16-9ac5-89f9292ee4c6)
 
 ![Example Image](https://firebasestorage.googleapis.com/v0/b/personal-blog-darmajr.appspot.com/o/project-content%2Fnode-model-ex1.png?alt=media&token=c4c61bb1-fc5c-47ff-a5a3-65d599224bd8)

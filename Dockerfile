@@ -18,6 +18,9 @@ RUN npm run build
 # Create /app/data directory and make it accessible (read/write for all users)
 RUN mkdir -p /app/data && chmod 777 /app/data
 
+# Ensure the database file is writable
+RUN chmod 666 /app/data/database.db
+
 # Switch to the 'node' user to run the application
 USER node
 
